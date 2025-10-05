@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/id_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28dp"
+        android:textColor="#857572"
+        android:gravity="end"
+        android:ellipsize="start"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="14sp"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeStepGranularity="1sp"/>
+
+    <TextView
+        android:id="@+id/id_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:gravity="end"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="300dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="18sp"
+        app:autoSizeMaxTextSize="36sp"
+        app:autoSizeStepGranularity="1sp" />
+
+</FrameLayout>
