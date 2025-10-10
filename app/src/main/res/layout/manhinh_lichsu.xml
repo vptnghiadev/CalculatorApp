@@ -27,8 +27,9 @@
             android:layout_height="wrap_content"
             android:text="History"
             android:layout_marginLeft="100dp"
-            android:textColor="@color/cam"
-            android:textSize="30dp" />
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="@font/alegreyasans_regular"/>
 
     </LinearLayout>
 
@@ -36,7 +37,7 @@
         android:id="@+id/history_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@color/white"
-        android:dividerHeight="1dp" />
+        android:divider="#7A7272"
+        android:dividerHeight="0.5dp" />
 
 </LinearLayout>

@@ -33,7 +33,7 @@ public class Manhinh_lichsu extends AppCompatActivity {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
                 TextView text = view.findViewById(android.R.id.text1);
-                text.setTextColor(getResources().getColor(R.color.cam)); // 🌈 đổi màu chữ
+                text.setTextColor(getResources().getColor(R.color.white)); // 🌈 đổi màu chữ
                 text.setTextSize(18); // có thể tăng kích thước
                 return view;
             }

@@ -6,9 +6,13 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:columnCount="4"
-        android:paddingLeft="25dp">
+        app:alignmentMode="alignMargins"
+        app:useDefaultMargins="true"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        app:rowOrderPreserved="false">
 
         <Button
             android:id="@+id/button"
