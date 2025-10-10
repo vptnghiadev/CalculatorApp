@@ -13,23 +13,37 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
+
+
+        <Button
+            android:id="@+id/btnCalcutor"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
             android:text="Calculator"
-            android:textColor="@color/cam"
-            android:textSize="30dp" />
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/alegreyasans_regular"/>
+        <Button
+            android:id="@+id/btnConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Converter"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/alegreyasans_regular"/>
 
         <ImageButton
             android:id="@+id/btnHistory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="30dp"
+
             android:backgroundTint="@color/black"
             android:src="@drawable/icon_history"
-            app:tint="#D5AFA9" />
+            app:tint="#DCD5D4" />
 
     </LinearLayout>
 

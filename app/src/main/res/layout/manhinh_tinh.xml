@@ -15,6 +15,7 @@
         android:ellipsize="start"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
+        android:paddingRight="30dp"
         app:autoSizeTextType="uniform"
         app:autoSizeMinTextSize="14sp"
         app:autoSizeMaxTextSize="28sp"
@@ -35,6 +36,7 @@
         app:autoSizeTextType="uniform"
         app:autoSizeMinTextSize="18sp"
         app:autoSizeMaxTextSize="36sp"
+        android:paddingRight="30dp"
         app:autoSizeStepGranularity="1sp" />
 
 </FrameLayout>
